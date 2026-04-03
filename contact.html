@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Way Kambas</title>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0b1e2d;
+    color:white;
+}
+/* NAVBAR */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+    background:white;
+}
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.logo img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
+nav a{
+    margin:0 15px;
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+}
+/* HEADER */
+.header{
+    text-align:center;
+    padding:40px;
+}
+.header h1{
+    font-size:40px;
+}
+.header p{
+    opacity:0.8;
+    margin-top:5px;
+}
+/* CONTACT SECTION */
+.contact-container{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    padding:40px;
+    flex-wrap:wrap;
+}
+/* VIDEO */
+.video-box{
+    width:450px;
+}
+.video-box video{
+    width:100%;
+    border-radius:10px;
+}
+/* FORM */
+.form-box{
+    width:400px;
+    background:white;
+    color:black;
+    padding:25px;
+    border-radius:10px;
+}
+.form-box h2{
+    margin-bottom:20px;
+}
+.form-box input,
+.form-box textarea{
+    width:100%;
+    padding:10px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+.form-box button{
+    width:100%;
+    padding:12px;
+    background:#2d7df6;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+.form-box button:hover{
+    background:#1b5fd1;
+}
+/* FOOTER */
+.footer{
+    text-align:center;
+    padding:30px;
+    background:#08141f;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+<header class="navbar">
+    <div class="logo">
+        <img src="img/Logo.jpeg" alt="logo">
+        <h2>Way Kambas</h2>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="galeri.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+<header class="header">
+<h1>CONTACT US</h1>
+<p>Taman Nasional Way Kambas</p>
+</header>
+
+
+<section class="contact-container">
+
+    <!-- VIDEO -->
+    <div class="video-box">
+
+        <h2>Video Wisata</h2>
+
+        <video controls>
+        <source src="img/video2.mp4" type="video/mp4">
+        Browser tidak mendukung video
+        </video>
+
+    </div>
+
+
+    <!-- FORM KONTAK -->
+
+    <div class="form-box">
+
+        <h2>Hubungi Kami</h2>
+
+        <form>
+
+        <input type="text" placeholder="Nama Lengkap" required>
+
+        <input type="email" placeholder="Email" required>
+
+        <textarea placeholder="Pesan Anda"></textarea>
+
+        <button type="submit">Kirim Pesan</button>
+
+        </form>
+
+    </div>
+
+    <div class="img">
+    <img src="img/User Pesona.png" alt="">
+    </div>
+
+    <div class="img">
+    <img src="img/User Pesona1.png" alt="">
+    </div>
+
+    <div class="img">
+    <img src="img/User Pesona2.png" alt="">
+    </div>
+
+    <div class="img">
+    <img src="img/User Pesona3.png" alt="">
+    </div>
+
+    <div class="img">
+    <img src="img/User Pesona4.png" alt="">
+    </div>
+
+    <div class="img">
+    <img src="img/User Pesona5.png" alt="">
+    </div>
+</section>
+
+
+<footer class="footer">
+
+<p>📍 Lampung Timur, Indonesia</p>
+<p>📞 +62 812 3456 7890</p>
+<p>✉ info@waykambas.com</p>
+
+</footer>
+
+</body>
+</html>

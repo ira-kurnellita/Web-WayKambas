@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Berita - Taman Nasional Way Kambas</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0b1e2d;
+    color:white;
+}
+
+/* NAVBAR */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+    background:#08141f;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
+
+nav a{
+    margin:0 15px;
+    text-decoration:none;
+    color:white;
+    opacity:0.8;
+}
+
+nav a:hover{
+    opacity:1;
+    color:#2d7df6;
+}
+
+/* HERO */
+.hero{
+    height:70vh;
+    background:
+    linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("https://authentic-indonesia.com/wp-content/uploads/2019/06/Explore-Way-Kambas-National-Park.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero-text h1{
+    font-size:55px;
+}
+
+.hero-text p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+/* BERITA */
+.news{
+    padding:70px 60px;
+    background:#f4f4f4;
+    color:black;
+}
+
+.news-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.news-title h2{
+    font-size:32px;
+}
+
+.news-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.news-card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.news-card:hover{
+    transform:translateY(-8px);
+}
+
+.news-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.news-content{
+    padding:20px;
+}
+
+.news-content h3{
+    margin-bottom:10px;
+}
+
+.news-content p{
+    font-size:14px;
+    color:#555;
+    margin-bottom:15px;
+}
+
+.news-content a{
+    text-decoration:none;
+    color:#2d7df6;
+    font-weight:bold;
+}
+
+/* VIDEO */
+.video-section{
+    padding:70px 60px;
+    text-align:center;
+}
+
+.video-section h2{
+    margin-bottom:30px;
+}
+
+.video-box{
+    max-width:800px;
+    margin:auto;
+}
+
+.video-box video{
+    width:100%;
+    border-radius:10px;
+}
+
+/* FOOTER */
+.footer{
+    background:#08141f;
+    padding:40px;
+    text-align:center;
+}
+
+.footer p{
+    opacity:0.8;
+}
+</style>
+</head>
+<body>
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="logo">
+        <img src="img/Logo.jpeg">
+        <h3>Way Kambas</h3>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="galeri.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+
+<!-- HERO -->
+<section class="hero">
+
+    <div class="hero-text">
+        <h1>BERITA TERBARU</h1>
+        <p>Taman Nasional Way Kambas</p>
+    </div>
+
+</section>
+
+
+<!-- BERITA TERBARU -->
+<section class="news">
+
+    <div class="news-title">
+        <h2>Berita Terbaru Way Kambas</h2>
+    </div>
+
+    <div class="news-container">
+        <div class="news-card">
+
+        <img src="https://www.kehutanan.go.id/s/uploads/medium_IMG_20251205_WA_0076_19259569d4.jpg">
+
+        <div class="news-content">
+            <h3>Kelahiran Anak Gajah Sumatera</h3>
+            <p>Seekor anak gajah Sumatera lahir di Pusat Konservasi Gajah Way Kambas. Kelahiran ini menjadi kabar baik bagi upaya pelestarian satwa langka di Indonesia.</p>
+            <a href="https://www.kehutanan.go.id/news/anak-gajah-sumatera-betina-lahir-di-tn-way-kambas-kondisi-sehat-dan-stabil">Baca Selengkapnya</a>
+        </div>
+
+    </div>
+
+
+    <div class="news-card">
+
+    <img src="https://awsimages.detik.net.id/community/media/visual/2016/12/01/6bce832a-8bb6-4ca2-b6c1-f6e56929bb49.jpg?w=700&q=90">
+
+        <div class="news-content">
+        <h3>Peningkatan Wisatawan</h3>
+        <p>Jumlah pengunjung Taman Nasional Way Kambas meningkat signifikan pada musim liburan karena banyak wisatawan ingin melihat gajah Sumatera secara langsung.</p>
+        <a href="#">Baca Selengkapnya</a>
+        </div>
+
+    </div>
+
+
+    <div class="news-card">
+
+    <img src="https://beritasumatera.co.id/wp-content/uploads/2025/04/IMG-20250425-WA0020-1024x632.jpg">
+
+        <div class="news-content">
+        <h3>Program Edukasi Konservasi</h3>
+        <p>Pihak pengelola Way Kambas mengadakan program edukasi bagi pelajar untuk meningkatkan kesadaran tentang pentingnya konservasi satwa liar.</p>
+        <a href="#">Baca Selengkapnya</a>
+        </div>
+
+    </div>
+
+    </div>
+
+</section>
+
+
+<!-- VIDEO -->
+<section class="video-section">
+
+<h2>Video Wisata Way Kambas</h2>
+
+    <div class="video-box">
+
+    <video controls>
+    <source src="img/Video1.mp4" type="video/mp4">
+    </video>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+
+<p>Follow Us : Instagram | Facebook | Twitter</p>
+<p>© 2026 Taman Nasional Way Kambas</p>
+
+</footer>
+
+</body>
+</html>

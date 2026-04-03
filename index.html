@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wisata Lampung - Way Kambas</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0b1e2d;
+    color:white;
+}
+
+/* NAVBAR */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:#08141f;
+}
+
+.logo img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.nav-links a{
+    margin:0 15px;
+    text-decoration:none;
+    color:white;
+    opacity:0.8;
+    font-size:15px;
+}
+
+.nav-links a:hover{
+    opacity:1;
+    color:#2d7df6;
+}
+
+/* HERO */
+.hero{
+    height:90vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 60px;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),
+    url("https://i.pinimg.com/originals/97/b7/06/97b70675258827518667f4b010fff920.jpg");
+
+    background-size:cover;
+    background-position:center;
+}
+
+.hero-text{
+    max-width:500px;
+}
+
+.hero-text h2{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    font-size:50px;
+    margin-bottom:30px;
+    opacity:0.9;
+}
+
+.explore-btn{
+    padding:14px 30px;
+    border:none;
+    background:#2d7df6;
+    color:white;
+    font-size:16px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.explore-btn:hover{
+    background:#1b5fd1;
+    transform:scale(1.05);
+}
+
+/* DESTINATION CARD */
+.destinations{
+    display:flex;
+    gap:30px;
+}
+
+.card{
+    width:320px;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    color:black;
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+    transition:0.3s;
+}
+
+.card img{
+    width:100%;
+    height:420px;
+    object-fit:cover;
+}
+
+.card:hover{
+    transform:translateY(-12px);
+}
+
+/* FOOTER */
+
+.footer{
+    background:#08141f;
+    padding:50px 60px 20px;
+    margin-top:60px;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:40px;
+    align-items:center;
+}
+
+.footer-menu a{
+    margin-right:20px;
+    text-decoration:none;
+    color:white;
+    opacity:0.8;
+}
+
+.footer-menu a:hover{
+    opacity:1;
+    color:#2d7df6;
+}
+
+.footer-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    width: 100%;
+    margin-bottom:10px;
+}
+
+.footer-social h4{
+    margin-bottom:10px;
+}
+
+.footer-social p{
+    opacity:0.8;
+}
+
+.footer-bottom{
+    text-align:center;
+    margin-top:30px;
+    padding-top:20px;
+    border-top:1px solid rgba(255,255,255,0.1);
+    font-size:14px;
+    opacity:0.7;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">
+        <img src="img/Logo.jpeg">
+    </div>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="galeri.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+</div>
+
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-text">
+
+        <h2>WISATA LAMPUNG</h2>
+
+        <p>Taman Nasional Way Kambas</p>
+
+        <button class="explore-btn">Explore →</button>
+
+    </div>
+
+    <div class="destinations">
+
+        <div class="card">
+            <img src="img/poster1.jpeg">
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-social">
+            <h4>Follow Us</h4>
+            <p>Instagram</p>
+            <p>Facebook</p>
+            <p>Twitter</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Taman Wisata Way Kambas | All Rights Reserved</p>
+    </div>
+
+</footer>
+</body>
+</html>
